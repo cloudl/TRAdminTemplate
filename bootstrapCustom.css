@@ -1,16 +1,23 @@
 .nav a {
-  color: white;
-}
-.nav li a:hover {
-  background-color: transparent;
-  color: white;
+  color: #AAA;
+  border-bottom: 1px solid #080c11;
+  border-top: 1px solid #182633;
 }
 .nav .static-item {
-  color: white;
+  margin: 0;
+  color: #EEE;
   font-size: 16px;
   font-weight: bold;
-  padding: 10px 15px;
+  padding: 15px 15px;
+  border-bottom: 1px solid #080c11;
+  border-top: 1px solid #182633;
+}
+.nav .nav {
+  background-color: #131e29;
 }
 .nav .nav li a {
   padding-left: 30px;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #121c25;
+  border: none;
 }
