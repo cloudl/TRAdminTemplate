@@ -1,14 +1,19 @@
+* {
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
 html,
 body {
   height: 100%;
   position: relative;
-  background-color: #ECF0F5 !important;
+  background-color: #F3F3F3 !important;
 }
 .topbar {
   position: relative;
   height: 50px;
-  background-color: #0073B7;
   z-index: 1030;
+}
+.topbar .navbar {
+  border-radius: 0;
 }
 aside {
   position: absolute;
@@ -17,10 +22,19 @@ aside {
   left: 0;
   width: 230px;
   min-height: 100%;
-  background-color: #101922;
   z-index: 880;
+  background-color: #2E363F;
+  overflow: hidden;
+}
+aside .vnav {
+  width: 230px;
 }
 .main {
   padding-left: 230px;
   width: 100%;
+}
+.box {
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  padding: 20px;
 }

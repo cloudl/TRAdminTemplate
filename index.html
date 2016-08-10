@@ -12,41 +12,45 @@
 
 <body>
     <div class="topbar">
-        <a class="btn btn-primary" id="toggle">
-            Link with href
-        </a>
+        <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" id="toggle">后台管理</a>
+            </div>
+        </div>
+        </nav>
     </div>
     <aside id="aside" class="sideshow">
-        <ul class="nav">
+        <ul class="vnav vnblack">
             <li>
-                <h4 class="static-item">内容管理</h4>
-                <ul class="nav nav-list">
-                    <li><a href="#">文章管理</a></li>
-                    <li><a href="#">栏目管理</a></li>
-                    <li><a href="#">系列管理</a></li>                    
-                    <li><a href="#">标签管理</a></li>
-                    <li><a href="#">评论管理</a></li>
+                <h4 class="static-item"><span class="glyphicon glyphicon-equalizer"></span>内容管理</h4>
+                <ul class="vnav">
+                    <li><a href="#"><span class="glyphicon glyphicon-list"></span>文章管理</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-th-large"></span>栏目管理</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-folder-close"></span>系列管理</a></li>                    
+                    <li><a href="#"><span class="glyphicon glyphicon-tags"></span>标签管理</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-edit"></span>评论管理</a></li>
                 </ul>
             </li>
             <li>
-                <h4 class="static-item">其他管理</h4>
-                <ul class="nav">
-                    <li><a href="#">公告管理</a></li>
-                    <li><a href="#">菜单管理</a></li>
+                <h4 class="static-item"><span class="glyphicon glyphicon-dashboard"></span>其他管理</h4>
+                <ul class="vnav">
+                    <li><a href="#"><span class="glyphicon glyphicon-bell"></span>公告管理</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span>菜单管理</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-send"></span>友链管理</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4 class="static-item"><span class="glyphicon glyphicon-cog"></span>系统设置</h4>
+                <ul class="vnav">
                     <li><a href="#">友链管理</a></li>
                 </ul>
             </li>
             <li>
-                <h4 class="static-item">系统设置</h4>
-                <ul class="nav">
-                    <li><a href="#">友链管理</a></li>
-                </ul>
-            </li>
-            <li>
-                <h4 class="static-item">个人中心</h4>
-                <ul class="nav">
-                    <li><a href="#">修改密码</a></li>
-                    <li><a href="#">注销</a></li>
+                <h4 class="static-item"><span class="glyphicon glyphicon-user"></span>个人中心</h4>
+                <ul class="vnav">
+                    <li><a href="#"><span class="glyphicon glyphicon-asterisk"></span>修改密码</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-out"></span>注销</a></li>
                 </ul>
             </li>
         </ul>
@@ -54,7 +58,48 @@
     <div class="main">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-1"></div>
+                <div class="col-md-12">
+                    <ol class="breadcrumb">
+                        <li><a href="#">主页</a></li>
+                    </ol>
+                    <div class="box">
+                        <div>
+                            <input type="checkbox"> 全选
+                            <button class="btn btn-default">删除</button>
+                        </div>
+                        <table class="table table-hover">
+                            <caption>Optional table caption.</caption>
+                            <thead>
+                                <tr>
+                                <th>#</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Username</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
